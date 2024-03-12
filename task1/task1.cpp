@@ -55,7 +55,14 @@ int main() {
         total_sum += thread_sum[i];
     }
 
-    cout << "Общая сумма элементов массива 1: " << total_sum1 << endl;
+    cout << "Количество потоков: " << threads_num;
+    cout << "\nМассив 1: " << endl;
+    cout << array1[0] << " ";
+    cout << array1[1] << " ";
+    cout << array1[2] << " ";
+    cout << array1[3] << " ";
+    cout << array1[4] << " ";
+    cout << "\nОбщая сумма элементов массива 1: " << total_sum1 << endl;
     cout << "Общая сумма элементов массива: " << total_sum << endl;
     //cout << processor_count << endl;
 
